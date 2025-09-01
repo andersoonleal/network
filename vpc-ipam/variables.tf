@@ -159,12 +159,12 @@ variable "flow_logs_file_format" {
 
 variable "flow_logs_per_hour_partition" {
   type    = bool
-  default = true
+  default = false
 }
 
 variable "flow_logs_hive_compatible" {
   type    = bool
-  default = true
+  default = false
 }
 
 # 60 ou 600 segundos
